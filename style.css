@@ -12,6 +12,7 @@
     font-style: normal;
 }
 
+@media screen { 
 * {
     margin: 0;
     padding: 0;
@@ -89,4 +90,11 @@ main {
     justify-content: space-between;
     width: 1633px;
     height: 701px;
+}
+}
+
+@media screen { 
+    body {
+    background-color: pink;
+    }
 }
