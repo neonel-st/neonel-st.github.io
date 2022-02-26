@@ -93,8 +93,8 @@ main {
 }
 }
 
-@media handheld { 
+@media handheld and (min_width: 360px) and (max-width: 720px){ 
     body {
-    background-color: pink;
+        background-color: pink;
     }
 }
