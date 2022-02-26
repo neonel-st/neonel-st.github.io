@@ -93,7 +93,7 @@ main {
 }
 }
 
-@media screen { 
+@media handheld { 
     body {
     background-color: pink;
     }
