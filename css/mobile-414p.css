@@ -34,7 +34,7 @@ p {
 body {
    display: flex;
    justify-content: center;
-   background-image: url(../img/Background.png);
+   background-image: url(../img/background.png);
 }
 
 header {
