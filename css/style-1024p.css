@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+   position: relative;
+   font-family: GraphikLCG;
+   font-weight: bold;
+   font-size: 39px;
+   line-height: 39px;
+   color: rgba(69, 66, 78, 1);
+   margin: 27px 0 9px 24px;
+}
+
+p {
+   font-family: GraphikLCG;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 16px;
+   color: rgba(69, 66, 78, 1);
+   width: 354px;
+   height: 209px;
+   margin: 0 0 0 24px;
+}
+
+.logo {
+   height: 48px;
+   width: 77px;
+   margin: 0 38px 0 29px;
+   filter: drop-shadow(1px 2px 10px rgba(0, 0, 0, 0.3));
+}
+
+body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(../img/background.png);
+   background-size: cover;
+}
+
+header {
+   display: flex;
+   align-items: center;
+   height: 62px;
+   width: 314px;
+   border-radius: 50px;
+   margin: 0 0 14px 0;
+   background: linear-gradient(126.67deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 116.3%);
+   box-shadow: inset -5px -5px 4px rgba(255, 255, 255, 0.1), inset 5px 5px 4px rgba(255, 255, 255, 0.1);
+   filter: drop-shadow(20px 30px 100px rgba(0, 0, 0, 0.05));
+   backdrop-filter: blur(15px);
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   width: 141px;
+   height: 32px;
+}
+
+nav a:hover {
+   background-color:rgba(255, 255, 255, 0.4);
+   border-radius: 10px;
+}
+
+.description {
+   position: absolute;
+   width: 405px;
+   height: 301px;
+   border-radius: 50px;
+   background: linear-gradient(126.67deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 116.3%);
+   box-shadow: inset -5px -5px 4px rgba(255, 255, 255, 0.1), inset 5px 5px 4px rgba(255, 255, 255, 0.1);
+   filter: drop-shadow(20px 30px 100px rgba(0, 0, 0, 0.05));
+   backdrop-filter: blur(15px);
+}
+
+main {
+   display: flex;
+   justify-content: space-between;
+   width: 912px;
+   height: 384px;
+}
