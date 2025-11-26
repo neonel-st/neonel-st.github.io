@@ -15,21 +15,22 @@ div {
 h1 {
     color: #DB53D5;
     font-family: Roboto;
-    font-size: 80px;
+    font-size: 10vw;
     margin-top: 0;
 }
 
 a {
-    padding: 15px;
+    padding: 10px;
     background-color: #5865F2;
     text-decoration: none;
     font-family: Roboto;
     font-size: 24px;
     color: #E0E3FF;
     margin-bottom: 0;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 a:hover {
     background-color: #3240db;
+
 }
