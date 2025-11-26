@@ -1,0 +1,35 @@
+body {
+    background-color: #282b30;
+}
+
+div {
+    width: 50%;
+    height: 25%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    color: #DB53D5;
+    font-family: Roboto;
+    font-size: 80px;
+    margin-top: 0;
+}
+
+a {
+    padding: 15px;
+    background-color: #5865F2;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 24px;
+    color: #E0E3FF;
+    margin-bottom: 0;
+    border-radius: 25px;
+}
+
+a:hover {
+    background-color: #3240db;
+}
